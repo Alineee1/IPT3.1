@@ -1,0 +1,522 @@
+body{
+    font-family: 'Manjari', sans-serif;
+    background-image: url(/images/BackgroundIMG.jpeg);
+    background-color: #323E33;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+@media only screen and (min-width: 601px) { /*DESKTOP*/
+
+.logo{
+    height: auto;   
+}
+       
+.IMG{
+    height: 65px;
+    width: 60%;
+}
+
+.IMGEVERGREEN{ 
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+
+.pic{
+    height: auto;
+    background-color: rgba(0, 0, 255, 0);
+    grid-column: 1/5;
+    width: 240px;
+    height: 65px;
+}
+
+.Nav1{
+    grid-column: 8/9;
+}
+
+.Nav2{
+    grid-column: 9/10;
+}
+
+.Nav3{
+    grid-column: 10/11;
+}
+
+.Nav4{
+    grid-column: 11/13;
+}
+        
+.content{
+    height: auto;
+    font-size: 1.2vw;
+}
+
+.header{
+    height: auto;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+  
+a:active {
+    text-decoration: underline;
+}
+
+.title{
+    padding-top: 70px;
+    position: relative;
+    padding-left: 3%;
+    font-size: 3vw;
+    color: white;
+    line-height: 0.8;
+    margin-bottom: 10px;
+}
+
+img {
+    padding-top: 10px;
+}
+
+.subtitle{
+    height: auto;
+    width: 39%;
+    position: relative;
+    left: 3%;
+    border-radius: 20px;
+    font-size: 1em;
+    padding: 15px; 
+    padding-bottom: 2%;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.228); 
+}
+
+p{
+    font-size: 1.8vw; 
+}
+
+.Content{
+    position: static;
+}
+
+.aboutpicture{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    justify-content: space-around;
+    height: 50%; 
+    margin-top: 100px;
+    margin-bottom: 100px;
+ }
+
+.logofooter{
+    text-align: center;
+    width: 100%; 
+}
+
+.evergreenfooter{
+    text-align: center;
+    padding-bottom: 1%;
+    font-size: 2vw;
+}
+
+.whiteline{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.line{
+    background-color: white;
+    height: 1px;
+    width: 88%;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background: #323E33;
+    font-size: 1.8vw;
+}
+
+.container{
+    color: white;
+    font-family: 'Manjari';
+    font-size: 2vw;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1r 2fr;
+    padding-top: 2%;
+}
+
+.footer{
+    background-color: #323E33;
+    padding-bottom: 2%; /*end of page*/
+    padding-top: 1%;
+}
+
+.logofooter{
+    text-align: center;
+    width: 100%;
+}
+
+.evergreenfooter{
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.whiteline{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.line{
+    background-color: white;
+    height: 1px;
+    width: 88%;
+}
+
+.container{
+    color: white;
+    font-family: 'Manjari';
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding-top: 2%;
+    width: 100%;
+}
+
+.navigationfooter{
+    width: 20%;
+    grid-column: 2/4;
+}
+
+.navigationfooter2{
+    width: 20%;
+    grid-column: 4 / 6;
+    grid-row: 1/2;
+}
+
+.legalfooter{
+    width: 20%;
+    grid-column: 6/8;
+}
+
+.disclaimerfooter{
+    width: 100%;
+    grid-column: 8/12;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+}
+
+.copyright{
+    color: white;
+    padding-top: 5%;
+    padding-left: 5%;
+    grid-row: 3/4;
+    grid-column: 2/7;
+    order: 5;
+}
+ 
+}
+
+
+
+/*TABLET & SMARTPHONE*/
+@media only screen and (max-width: 600px) {
+
+    .logo{
+        height: auto;   
+    }
+    
+    .IMG{
+        height: 65px;
+        width: 60%;
+    }
+    
+    .IMGEVERGREEN{
+        width: 100%;
+        height: 100%;
+    }
+                  
+    a{
+        color: white;
+        text-decoration: none;
+    }
+           
+    .navigation{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    
+    .pic{
+        background-color: rgba(0, 0, 255, 0);
+        height: auto;
+        grid-column: 4/8;
+    }
+    
+    .Nav1{
+        grid-column: 5/9;
+        height: 30px;
+    }
+    
+    .Nav2{
+        grid-column: 5/9;
+        height: 30px;
+    }
+        
+    .Nav3{
+        grid-column: 5/9;
+        height: 30px;
+    }
+    
+    .Nav4{
+        grid-column: 5/9;
+        height: 30px;
+    }
+                     
+    .Content{
+        height: auto;
+        font-size: 1.2vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+    }
+    
+    .header{
+       height: auto;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
+      
+      a:active {
+        text-decoration: underline;
+    }
+
+    .title{
+        padding-top: 70px;
+        grid-column: 2/3;
+        padding-left: 3%;
+        font-size: 3vw;
+        color: white;
+        line-height: 0.8;
+        margin-bottom: 10px;
+        justify-content:center;
+    }
+
+    .aboutpicture{
+        display: flex;
+        width: 100%;
+        height: 300px;
+        justify-content: space-around;
+        height: 50%; 
+        margin-top: 100px;
+        margin-bottom: 100px;
+     }
+    
+.footer{
+    background-color: #323E33;
+    height: auto;
+}
+
+.logofooter{
+    text-align: center;
+    width: 100%;
+}
+
+.evergreenfooter{
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.whiteline{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.line{
+    background-color: white;
+    height: 1px;
+    width: 88%;
+}
+
+.container{
+    color: white;
+    font-family: 'Manjari';
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding-top: 2%;
+    width: 100%;
+}
+
+.navigationfooter{
+    width: 20%;
+    grid-column: 3/5;
+}
+
+.navigationfooter2{
+    width: 20%;
+    grid-column: 6/8;
+}
+
+.legalfooter{
+    width: 20%;
+    grid-column: 9/11;
+}
+
+.disclaimerfooter{
+    width: 100%;
+    grid-row: 2/3;
+    grid-column: 3/11;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+}
+
+.copyright{
+    color: white;
+    padding-top: 5%;
+    padding-left: 5%;
+    grid-row: 3/4;
+    grid-column: 2/7;
+}
+}
+
+
+/* BODY */
+
+[class*="col-"] {
+    float: left;
+  }
+
+
+.whitepannel{
+    background-color:#CED5C8;
+    width: 100%;
+    height: 80px;
+}
+
+.pannel1{
+    width: 100%;
+}
+
+.OrangePicture{
+    height: 300px;
+    background-image: url(/images/about1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.Orange{
+    background-color: #E2A760;
+    height: 300px;
+
+}
+
+
+.aboutline{
+    background-color: white;
+    height: 1px;
+    width: 56%;
+    margin-top: 50px;
+    margin-left: 22%;
+    justify-content: center;
+}
+
+h6{
+    font-size: 1em;
+    padding-left: 20%;
+    padding-right: 20%;
+    color: white;
+    float:left;
+    margin: 0px;
+    margin-top: 45px;
+}
+
+.pannel2{
+width: 100%;
+}
+
+.ViolettPicture{
+    height: 300px;
+    background-color: #8386A1;
+}
+
+.Violett{
+    height: 300px;
+    background-image: url(/images/about2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.pannel3{
+    width: 100%;
+}
+
+.BluePicture{
+    height: 300px;
+    background-image: url(/images/about3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.Blue{
+    height: 300px;
+    background-color: #55707F;
+}
+
+
+@media only screen and (min-width: 300px) {
+    /* For phone: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 600px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
